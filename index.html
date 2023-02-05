@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Super calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super calculadora</h1>
+      <span>Primeiro número(A):<input id="number-a" type="number" /></span>
+      <span>Segundo número(B):<input id="number-b" type="number" /></span>
+      <span><button id="button-calculate">Calcular</button></span>
+    </header>
+    <main>
+      <div id="table-of-operations">
+        <table>
+          <tr>
+            <td>
+              <label class="operacoes">Soma</label>
+
+              <p id="result-addition"></p>
+            </td>
+            <td>
+              <label class="operacoes">Subtração A - B</label>
+              <p id="result-subtracionab"></p>
+            </td>
+            <td>
+              <label class="operacoes">Subtração B - A</label>
+              <p id="result-subtracionba"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="operacoes">Multiplicação</label>
+              <p id="result-multiplication"></p>
+            </td>
+            <td>
+              <label class="operacoes">Divisão A / B</label>
+              <p id="result-divisionab"></p>
+            </td>
+            <td>
+              <label class="operacoes">Divisão B / A</label>
+              <p id="result-divisionba"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="operacoes">Potência de A na base B </label>
+              <p id="result-powerab"></p>
+            </td>
+            <td>
+              <label class="operacoes">Potência de B na base A</label>
+              <p id="result-powerba"></p>
+            </td>
+            <td>
+              <label class="operacoes">Raiz quadrada de A</label>
+              <p id="result-square-roota"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="operacoes">Raiz quadrada de B</label>
+              <p id="result-square-rootb"></p>
+            </td>
+            <td>
+              <label class="operacoes">Fatorial de A</label>
+              <p id="result-factoriala"></p>
+            </td>
+            <td>
+              <label class="operacoes">Fatorial de B</label>
+              <p id="result-factorialb"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="operacoes">Porcentagem de A em relação a B</label>
+              <p id="result-percentageAb"></p>
+            </td>
+            <td>
+              <label class="operacoes">Porcentagem de B em relação a A</label>
+              <p id="result-percentageBa"></p>
+            </td>
+            <td>
+              <label class="operacoes">Média</label>
+              <p id="result-avarage"></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

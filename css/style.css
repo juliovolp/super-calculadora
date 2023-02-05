@@ -1,0 +1,32 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+table {
+  padding: 10px;
+  border: 1px solid;
+  width: 100%;
+}
+td {
+  border: 1px solid;
+}
+
+header {
+  background-color: #1c1c1c;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #adff2f;
+}
+main {
+  background-color: #4f4f4f;
+}
+.operacoes {
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+}
+
+p {
+  color: white;
+}
